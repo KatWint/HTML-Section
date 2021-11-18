@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 00px;
+}
+.navigation{
+    width: 700px;
+    height: 30px;
+    padding: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+
+}
+#layout{
+    display: inline-flex;
+}
+button{
+    background-color:darkturquoise;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+}
+#map{
+    width: 50px;
+    height: 40px;
+}
+#gear{
+    width:15px;
+    height: 15px;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.accept, .decline {
+    width: 30px;
+    height: 30px;
+}
+#image{
+    background-color: rgb(31, 186, 224);
+    height: 50px;
+}
+#user {
+    width: 60px;
+    height: 50px;
+    margin: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.main {
+    width: 350px;
+    margin: 20px;
+}
+.side {
+    width: 250px;
+    padding: 20px;
+    margin: 10px; 
+}   
+.profile, .education, .requests, .connections, .headline {
+    border: 1px solid rgb(82, 82, 82);
+    text-indent: 5px;
+    text-align: left;
+}
+.education, .connections {
+    margin-top: 20px;
+}
+.headline {
+    height: 30px;
+    background-color: rgb(41, 39, 39);
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-indent: 5px;
+    }
